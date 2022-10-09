@@ -14,6 +14,8 @@ local servers = {
   "yamlls",
   "rust_analyzer",
   "taplo",
+  "golangci_lint_ls",
+  "gopls"
 }
 
 lsp_installer.setup()
