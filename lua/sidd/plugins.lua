@@ -46,7 +46,6 @@ return packer.startup(function(use)
   use({ "nvim-lua/plenary.nvim", commit = "62dc2a7acd2fb2581871a36c1743b29e26c60390" }) -- Useful lua functions used ny lots of plugins
   use({ "windwp/nvim-autopairs", commit = "14cc2a4fc6243152ba085cc2059834113496c60a" }) -- Autopairs, integrates with both cmp and treesitter
   use({ "numToStr/Comment.nvim", commit = "70615e63a6dcc41de0e90a7d79bdcec511bda93f" }) -- Easily comment stuff
-  use({ "kyazdani42/nvim-web-devicons", commit = "969728506c0175644a1d448f55e311ccdada7eaf" }) -- Provides icons
   use({ "kyazdani42/nvim-tree.lua", commit = "9914780cbabdffe3cd030867f0bc34c6e51bcb95" }) -- Tree file explorer
   use({ "akinsho/bufferline.nvim", commit = "c78b3ecf9539a719828bca82fc7ddb9b3ba0c353" }) -- Add bufferline
 	use({ "moll/vim-bbye", commit = "25ef93ac5a87526111f43e5110675032dbcacf56" })
@@ -83,6 +82,11 @@ return packer.startup(function(use)
 
   -- Telescope
   use({ "nvim-telescope/telescope.nvim", commit = "30e2dc5232d0dd63709ef8b44a5d6184005e8602" })
+  use({ "nvim-telescope/telescope-media-files.nvim", commit = "513e4ee385edd72bf0b35a217b7e39f84b6fe93c" })
+  use({ "tom-anders/telescope-vim-bookmarks.nvim", commit = "92498cbf7c127dea37c3d27117b60dd7ab9baef4" })
+
+  -- Icon 
+  use({ "kyazdani42/nvim-web-devicons", commit = "a8cf88cbdb5c58e2b658e179c4b2aa997479b3da"})
 
   -- Treesitter
   use {
