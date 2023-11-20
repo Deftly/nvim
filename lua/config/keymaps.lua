@@ -6,11 +6,5 @@ local opts = { noremap = true, silent = true }
 
 keymap.set("i", "jk", "<ESC>", { silent = true })
 
--- Delete a word backwards
--- keymap.set("n", "dw", 'vb"_d')
-
 -- Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
-
--- Jumplist
-keymap.set("n", "<C-m>", "<C-i>", opts)
