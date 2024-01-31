@@ -48,6 +48,16 @@ return {
     },
   },
   {
+    "nvim-telescope/telescope.nvim",
+    opts = {
+      defaults = {
+        file_ignore_patterns = {
+          "node_modules",
+        },
+      },
+    },
+  },
+  {
     "NvChad/nvim-colorizer.lua",
     config = function()
       require("colorizer").setup({
