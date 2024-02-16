@@ -1,5 +1,9 @@
 return {
   {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
+  {
     "folke/tokyonight.nvim",
     lazy = true,
     opts = { style = "storm" },
