@@ -79,6 +79,30 @@ return {
     },
   },
   {
+    "mistricky/codesnap.nvim",
+    lazy = "true",
+    build = "make",
+    cmd = "CodeSnapPreviewOn",
+    config = function(_, opts)
+      require("codesnap").setup(opts)
+    end,
+  },
+  -- {
+  --   "ellisonleao/carbon-now.nvim",
+  --   lazy = true,
+  --   cmd = "CarbonNow",
+  --   opts = {
+  --     options = {
+  --       bg = "rgba(74,144,226,100)",
+  --       font_family = "Hack",
+  --       font_size = "18px",
+  --       theme = "night-owl",
+  --       titlebar = "",
+  --       watermark = false,
+  --     },
+  --   },
+  -- },
+  {
     "NvChad/nvim-colorizer.lua",
     config = function()
       require("colorizer").setup({
