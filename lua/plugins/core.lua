@@ -22,6 +22,7 @@ return {
         "lua",
         "json",
         "jsonc",
+        "hcl",
         "terraform",
         "python",
         "rust",
