@@ -4,6 +4,12 @@ return {
     lazy = false,
   },
   {
+    "nvim-lspconfig",
+    opts = {
+      inlay_hints = { enabled = false },
+    },
+  },
+  {
     "folke/tokyonight.nvim",
     lazy = true,
     opts = { style = "storm" },
