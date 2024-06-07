@@ -45,7 +45,7 @@ return {
       ensure_installed = {
         "bash-language-server",
         "css-lsp",
-        "eslint-lsp",
+        -- "eslint-lsp",
         "gopls",
         "elixir-ls",
         "html-lsp",
@@ -64,19 +64,19 @@ return {
       },
     },
   },
-  {
-    "zbirenbaum/copilot.lua",
-    cmd = "Copilot",
-    build = ":Copilot auth",
-    opts = {
-      suggestion = { enabled = false },
-      panel = { enabled = false },
-      filetypes = {
-        markdown = true,
-        help = true,
-      },
-    },
-  },
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   cmd = "Copilot",
+  --   build = ":Copilot auth",
+  --   opts = {
+  --     suggestion = { enabled = false },
+  --     panel = { enabled = false },
+  --     filetypes = {
+  --       markdown = true,
+  --       help = true,
+  --     },
+  --   },
+  -- },
   {
     "nvim-telescope/telescope.nvim",
     opts = {
