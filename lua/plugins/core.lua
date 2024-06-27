@@ -66,19 +66,6 @@ return {
       },
     },
   },
-  -- {
-  --   "zbirenbaum/copilot.lua",
-  --   cmd = "Copilot",
-  --   build = ":Copilot auth",
-  --   opts = {
-  --     suggestion = { enabled = false },
-  --     panel = { enabled = false },
-  --     filetypes = {
-  --       markdown = true,
-  --       help = true,
-  --     },
-  --   },
-  -- },
   {
     "nvim-telescope/telescope.nvim",
     opts = {
@@ -89,21 +76,6 @@ return {
       },
     },
   },
-  -- {
-  --   "ellisonleao/carbon-now.nvim",
-  --   lazy = true,
-  --   cmd = "CarbonNow",
-  --   opts = {
-  --     options = {
-  --       bg = "rgba(74,144,226,100)",
-  --       font_family = "Hack",
-  --       font_size = "18px",
-  --       theme = "night-owl",
-  --       titlebar = "",
-  --       watermark = false,
-  --     },
-  --   },
-  -- },
   {
     "NvChad/nvim-colorizer.lua",
     config = function()
