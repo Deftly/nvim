@@ -1,5 +1,12 @@
 return {
   {
+    "folke/noice.nvim",
+    optional = true,
+    opts = {
+      presets = { inc_rename = true },
+    },
+  },
+  {
     "christoomey/vim-tmux-navigator",
     lazy = false,
   },
@@ -50,7 +57,7 @@ return {
         "gopls",
         "elixir-ls",
         "html-lsp",
-        "jedi-language-server",
+        -- "jedi-language-server",
         "lua-language-server",
         "marksman",
         "checkmake",
