@@ -55,7 +55,7 @@ return {
         "css-lsp",
         -- "eslint-lsp",
         "gopls",
-        "elixir-ls",
+        -- "elixir-ls",
         "html-lsp",
         -- "jedi-language-server",
         "lua-language-server",
